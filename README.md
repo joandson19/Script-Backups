@@ -1,3 +1,3 @@
-* Requisitos para instalar estão logo abaixo
+# Requisitos para instalar estão logo abaixo
 
-# apt install sshpass curl -y
+* apt install sshpass curl -y
