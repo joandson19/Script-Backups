@@ -9,6 +9,9 @@ LOCAL_PATH="/tmp"
 CHATID="CHATIDTELEGRAM"
 TOKEN="TOKEMTELEGRAM"
 
+# Defina o formato de compactação desejado: "zip" ou "tar"
+COMPAC="zip"
+
 # Conecta na OLT via SSH e cria o arquivo de backup
 sshpass -p "$OLT_PASSWORD" ssh "$OLT_USER@$OLT_IP" "save $BACKUP_FILE"
 
