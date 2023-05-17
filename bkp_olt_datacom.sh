@@ -1,13 +1,18 @@
 #!/bin/bash
+# By Joandson Bezerra
+# Favor altere somente o necessário, não invente moda!
 
-# Define as variáveis necessárias
+# Define as variáveis necessárias (Altere essas variáveis)
 OLT_IP="IP"
 OLT_USER="USERDAOLT"
 OLT_PASSWORD="SENHADAOLT"
-BACKUP_FILE="backup_$(date +%Y-%m-%d_%H-%M-%S).txt"
-LOCAL_PATH="/tmp"
 CHATID="CHATIDTELEGRAM"
 TOKEN="TOKEMTELEGRAM"
+
+## Daqui em diante não altere mais nada!
+
+BACKUP_FILE="backup_$(date +%Y-%m-%d_%H-%M-%S).txt"
+LOCAL_PATH="/tmp"
 
 # Defina o formato de compactação desejado: "zip" ou "tar"
 COMPAC="zip"
