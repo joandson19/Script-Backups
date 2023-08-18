@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Variáveis
-TELEGRAM_API_KEY="492230424:AAH70Sd-J1trfPiFrUbDrECVOEN-FzhORsY"
-TELEGRAM_CHAT_ID="-506621348"
+TELEGRAM_API_KEY="TOKEN"
+TELEGRAM_CHAT_ID="ID"
 NOME=$(hostname -a)
 
 # Diretórios de backup
