@@ -14,3 +14,9 @@
 ```
 # ./backup.sh
 ```
+
+### Agora é só altomatizar na cron
+```
+# crontab -e
+00 20  * * *  /etc/backup &>/dev/null
+```
